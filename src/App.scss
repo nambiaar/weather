@@ -1,0 +1,30 @@
+.App {
+  min-height: 22em;
+  h1 {
+    text-align: center;
+    padding-top: 0.25em;
+    margin-top: 0;
+  }
+  .search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .search-history,
+  .search-box {
+    margin-left: 1em;
+    button.delete {
+      color: #FF0000;
+      margin-left: 10px;
+    }
+  }
+  .forecast {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .App {
+    background-color: #008000;
+  }
+}

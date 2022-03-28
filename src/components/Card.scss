@@ -1,0 +1,31 @@
+.card {
+    border: .25em solid #c2c2c2;
+    border-radius: .5em;
+    margin: 1em;
+    padding: 1em;
+    background-color: #f2f2f2;
+    display: block;
+    &.small {
+      width: 100%;
+    }
+    &.large {
+      display:block;
+        height: 32vw;
+        .content {
+            font-size: 8vw;
+            margin-top: 1em;
+        }
+    }
+    .date {
+      font-size: .1em;
+    }
+}
+
+@media (max-width: 576px) {  
+    .card.large {
+      display:flex;
+      .content {
+        margin-top: 2em;
+      }
+    }
+  }

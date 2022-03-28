@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+DDO tdd - 1 day
+use graphql - 1 day
+see if you can use docker - 1 day
+
+
 ## Available Scripts
 
 In the project directory, you can run:
